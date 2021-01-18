@@ -1,5 +1,5 @@
 .body {
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Popins';
    font-size: 17px;
    font-weight: 300;
    color: #000000;
@@ -15,7 +15,7 @@
 .bg-image {
    position: absolute;
    width: 1920px;
-   height: 1466px;
+   height: 1216px;
    left: 0px;
    top: 0px;
 }
@@ -26,8 +26,7 @@
    height: 159px;
    left: 899px;
    top: 0px;
-   border: 0px 0px 5px 5px;
-   filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.1));
+   background-blend-mode: darken;
 
 }
 
@@ -37,19 +36,20 @@
    align-items: flex-start;
    padding: 0px;
    justify-content: space-between;
-
    position: absolute;
-   width: 403px;
-   height: 20px;
-   left: 305px;
-   top: 51px;
+   width: 362px;
+   height: 24px;
+   left: 309px;
+   top: 49px;
 }
 
 .link {
-   color: #7C7566;
-   font-family: 'Roboto', sans-serif;
-   font-size: 17px;
-   font-weight: 300;
+   color: #000000;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px
 }
 
 .link:hover,
@@ -61,8 +61,80 @@
 
 .menu {
    position: absolute;
-   width: 48px;
-   height: 48px;
-   left: 40px;
-   top: 29px;
+   width: 362px;
+   height: 24px;
+   left: calc(50% - 362px/2 - 470px);
+   top: 49px;
 }
+
+.fb {
+   position: absolute;
+   left: 1779px;
+   right: 6.3%;
+   top: 38.25px;
+   bottom: 99.03%;
+}
+
+.instagram {
+   position: absolute;
+   left: 1809px;
+   right: 4.74%;
+   top: 38.25px;
+   bottom: 99.03%;
+}
+
+.titel {
+   position: absolute;
+   width: 468px;
+   height: 110px;
+   left: 726px;
+   top: 142px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 144px;
+   line-height: 110px;
+
+
+   text-transform: uppercase;
+
+   color: #000000;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: absolute;
+   width: 180px;
+   height: 33px;
+   left: 875px;
+   top: 280px;
+   
+}
+
+.order { 
+   position: static;
+   width: 180px;
+   height: 33px;
+   left: 0px;
+   top: 0px;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 36px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   text-transform: capitalize;
+
+   color: #000000;
+   background: #FDB805;
+}
+   
+  
