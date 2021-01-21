@@ -1,5 +1,5 @@
 .body {
-   font-family: "Popins";
+   font-family: 'Montserrat', sans-serif;
    font-size: 17px;
    font-weight: 300;
    color: #000000;
@@ -44,7 +44,7 @@
 
 .link {
    color: #000000;
-   font-family: Poppins;
+   font-family: Montserrat;
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
@@ -96,18 +96,18 @@
 
 .titel {
    position: absolute;
-   width: 468px;
+   width: 488px;
    height: 110px;
-   left: 726px;
-   top: 142px;
+   left: 378px;
+   top: 159px;
 
-   font-family: Poppins;
+   font-family: Montserrat;
    font-style: normal;
    font-weight: 900;
-   font-size: 144px;
+   font-size: 206px;
    line-height: 110px;
 
-   text-transform: uppercase;
+
 
    color: #000000;
 }
@@ -119,27 +119,28 @@
    padding: 16px;
 
    position: absolute;
-   width: 150px;
+   width: 160px;
    height: 36px;
-   left: 885px;
-   top: 275px;
+   left: 880px;
+   top: 254px;
 
-   background: #fdb805;
+   background: #FDB805;
    border-radius: 75px;
 }
 
 .order {
    position: static;
-   width: 118px;
+   width: 128px;
    height: 4px;
    left: 16px;
    top: 16px;
 
-   font-family: Poppins;
+
+   font-family: Montserrat;
    font-style: normal;
    font-weight: 900;
    font-size: 24px;
-   line-height: 36px;
+   line-height: 29.26px;
    display: flex;
    align-items: center;
    text-align: center;
@@ -147,4 +148,5 @@
 
    color: #000000;
    background: #fdb805;
+
 }
