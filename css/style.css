@@ -15,7 +15,7 @@
 .bg-image {
    position: absolute;
    width: 1920px;
-   height: 1216px;
+   height: 1233px;
    left: 0px;
    top: 0px;
 }
@@ -37,18 +37,22 @@
    justify-content: space-between;
    position: absolute;
    width: 509px;
-   height: 24px;
-   left: 309px;
-   top: 49px;
+   height: 20px;
+   left: 1145px;
+   top: 40px;
 }
+
 
 .link {
    color: #000000;
    font-family: Montserrat;
-   font-style: normal;
-   font-weight: normal;
+   font-style: medium;
+   font-weight: 500;
    font-size: 16px;
    line-height: 24px;
+   text-align: center;
+   text-transform: uppercase;
+
 }
 
 .link:hover,
@@ -62,15 +66,15 @@
    position: absolute;
    width: 362px;
    height: 24px;
-   left: 91px;
-   top: 49px;
+   left: 60px;
+   top: 35px;
 }
 
 .fb {
    position: absolute;
-   left: 1798px;
+   left: 1780px;
    right: 4.69%;
-   top: 51px;
+   top: 35px;
    bottom: 98.62%;
 }
 
@@ -82,9 +86,9 @@
 
 .instagram {
    position: absolute;
-   left: 1846px;
+   left: 1828px;
    right: 2.19%;
-   top: 51.25px;
+   top: 35px;
    bottom: 98.61%;
 }
 
@@ -96,15 +100,15 @@
 
 .titel {
    position: absolute;
-   width: 488px;
+   width: 623px;
    height: 110px;
    left: 378px;
-   top: 159px;
+   top: 140px;
 
    font-family: Montserrat;
    font-style: normal;
    font-weight: 900;
-   font-size: 206px;
+   font-size: 263px;
    line-height: 110px;
 
 
@@ -122,7 +126,7 @@
    width: 160px;
    height: 36px;
    left: 880px;
-   top: 254px;
+   top: 313px;
 
    background: #FDB805;
    border-radius: 75px;
