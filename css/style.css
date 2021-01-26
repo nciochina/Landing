@@ -7,7 +7,7 @@
 
 .hero {
    height: 1233px;
-   background: url(../img/DSC_1311\ 8.jpg) center center/cover no-repeat;
+   background: url(../img/DSC_1311\ 8_auto_x1.jpg) center center/cover no-repeat;
 }
 
 .container {
@@ -111,43 +111,39 @@ bottom: 98.65%;
 }
 
 .button {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   padding: 16px;
-
    position: absolute;
-   width: 160px;
-   height: 36px;
-   left: 880px;
-   top: 313px;
+width: 160px;
+height: 36px;
+left: 880px;
+top: 327px;
 
+   
    background: #FDB805;
    border-radius: 75px;
 }
 
 .order {
-   position: static;
-   width: 128px;
-   height: 4px;
-   left: 16px;
-   top: 16px;
+   position: absolute;
+width: 121px;
+height: 30px;
+left: calc(50% - 121px/2 + 0.5px);
+top: calc(50% - 30px/2);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #000000;
+background: #FDB805;
 
 
-   font-family: Montserrat;
-   font-style: normal;
-   font-weight: 900;
-   font-size: 24px;
-   line-height: 29.26px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   text-transform: capitalize;
-
-   color: #000000;
-   background: #fdb805;
-
-} 
+}  
 
 
 /* .header {
