@@ -134,9 +134,10 @@
 }
 
 .about {
-   height: 682px;
+      height: 682px;
    padding-top: 50px;
 }
+
 
 .about-titel {
    left: 930px;
@@ -174,4 +175,17 @@
    line-height: 156%;
    text-align: center;
    color: #000000;
+}
+
+.about-wrapper {
+   margin-top: 67px;
+}
+
+.about-item {
+   display: inline-block;
+   vertical-align: top;
+   left: 307px;
+   width: 317px;
+   text-align: center;
+   align-items: center;
 }
