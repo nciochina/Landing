@@ -51,7 +51,7 @@
    font-family: Montserrat;
    font-style: medium;
    font-weight: 500;
-   font-size: 16px;
+   font-size: 14px;
    line-height: 24px;
    text-align: center;
    text-transform: uppercase;
@@ -141,202 +141,37 @@
 .about-titel {
    left: 930px;
    top: 1307px;
-
    font-family: Montserrat;
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
    line-height: 25px;
-   /* identical to box height, or 156% */
-
    text-align: center;
-
    color: #FDB805;
    text-transform: uppercase;
 }
 
 .about-header {
-  
    left: 769px;
    top: 1352px;
-   padding:20px 0 20px 0;
-
+   padding: 20px 0 20px 0;
    font-family: Montserrat;
    font-style: normal;
    font-weight: 600;
    font-size: 36px;
    line-height: 25px;
-     text-align: center;
+   text-align: center;
    color: #000000;
 }
 
-.about-subheader{
+.about-subheader {
    left: 647px;
    top: 1397px;
-      font-family: Montserrat;
+   font-family: Montserrat;
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
    line-height: 156%;
-   /* or 156% */
-   
    text-align: center;
-   
-   color: #000000;
-
-}
-
-
-/* .header {
-   display: flex;
-   width: 1920px;
-   height: 5000px;
-   align-items: top;
-   justify-content: space-between;
-}
-
-
-
-.bg-image {
-   background-image: url(/img/DSC_1311\ 8.jpg);
-   position: absolute;
-   width: 1920px;
-   height: 1233px;
-   left: 0px;
-   top: 0px;
-}
-
-.logo {
-   position: absolute;
-   width: 121px;
-   height: 159px;
-   left: 899px;
-   top: -17px;
-   background-blend-mode: darken;
-}
-
-.menu-list {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   padding: 0px;
-   justify-content: space-between;
-   position: absolute;
-   width: 509px;
-   height: 20px;
-   left: 1145px;
-   top: 40px;
-}
-
-
-.link {
-   color: #000000;
-   font-family: Montserrat;
-   font-style: medium;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   text-align: center;
-   text-transform: uppercase;
-
-}
-
-.link:hover,
-.link:focus,
-.link:active {
-   /* color: #FDB805; */
-/* opacity: 40%;
-}
-
-.menu {
-   position: absolute;
-   width: 362px;
-   height: 24px;
-   left: 60px;
-   top: 35px;
-}
-
-.fb {
-   position: absolute;
-   left: 1780px;
-   right: 4.69%;
-   top: 35px;
-   bottom: 98.62%;
-}
-
-.fb:hover,
-.fb:focus,
-.fb:active {
-   opacity: 0.4;
-}
-
-.instagram {
-   position: absolute;
-   left: 1828px;
-   right: 2.19%;
-   top: 35px;
-   bottom: 98.61%;
-}
-
-.instagram:hover,
-.instagram:focus,
-.instagram:active {
-   opacity: 0.4;
-}
-
-.titel {
-   position: absolute;
-   width: 623px;
-   height: 110px;
-   left: 378px;
-   top: 140px;
-
-   font-family: Montserrat;
-   font-style: normal;
-   font-weight: 900;
-   font-size: 263px;
-   line-height: 110px;
-
-
-
    color: #000000;
 }
-
-.button {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   padding: 16px;
-
-   position: absolute;
-   width: 160px;
-   height: 36px;
-   left: 880px;
-   top: 313px;
-
-   background: #FDB805;
-   border-radius: 75px;
-}
-
-.order {
-   position: static;
-   width: 128px;
-   height: 4px;
-   left: 16px;
-   top: 16px;
-
-
-   font-family: Montserrat;
-   font-style: normal;
-   font-weight: 900;
-   font-size: 24px;
-   line-height: 29.26px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   text-transform: capitalize;
-
-   color: #000000;
-   background: #fdb805;
-
-}  */
