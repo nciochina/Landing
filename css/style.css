@@ -22,7 +22,7 @@
 
 .menu {
    position: absolute;
-   width: 362px;
+  width: 362px;
    height: 24px;
    left: 60px;
    top: 35px;
@@ -94,7 +94,7 @@
 
 .titel {
    position: absolute;
-   width: 623px;
+  width: 623px;
    height: 110px;
    left: 378px;
    top: 140px;
