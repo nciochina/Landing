@@ -183,11 +183,10 @@
 }
 
 .about-item {
-   padding-top: 10px;
-   margin: 0 3px;
+   padding-top: 50px;
    display: inline-block;
    width: 317px;
-   height: 400px;
+   height: 300px;
    vertical-align: top;
    text-align: center;
 }
@@ -205,24 +204,59 @@
 }
 
 .about-text {
- margin: 10px 50px;
- 
+   margin: 10px 50px;
    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-color: #000000;
-
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #000000;
 }
 
-.about-icon{
-   
+.about-icon {
+   width: 60px;
+   height: 65px;
+}
 
-width: 60px;
-height: 65px;
+.sortiment {
+   padding-top: 50px;
+   height: 510px;
+}
+
+.sortiment-header {
+   padding: 20px 0 30px 0;
+   font-family: Montserrat;
+   ffont-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 25px;
+   text-align: center;
+   color: #000000;
+   text-align: center;
+}
+
+.flex-container{
+   margin: 0 auto;
+   width: 1310px;
+   height: 500px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.sortiment-titel{
+   text-align: center;
+   padding-top: 30px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 25px;
+line-height: 1px;
+/* identical to box height, or 5% */
 
 
+color: #000000;
+text-transform: uppercase;
 
 }
