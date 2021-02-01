@@ -22,7 +22,7 @@
 
 .menu {
    position: absolute;
-  width: 362px;
+   width: 362px;
    height: 24px;
    left: 60px;
    top: 35px;
@@ -94,7 +94,7 @@
 
 .titel {
    position: absolute;
-  width: 623px;
+   width: 623px;
    height: 110px;
    left: 378px;
    top: 140px;
@@ -134,7 +134,7 @@
 }
 
 .about {
-      height: 682px;
+   height: 682px;
    padding-top: 50px;
 }
 
@@ -179,13 +179,50 @@
 
 .about-wrapper {
    margin-top: 67px;
+   align-items: center;
 }
 
 .about-item {
+   padding-top: 10px;
+   margin: 0 3px;
    display: inline-block;
-   vertical-align: top;
-   left: 307px;
    width: 317px;
+   height: 400px;
+   vertical-align: top;
    text-align: center;
-   align-items: center;
+}
+
+.card-titel {
+   padding-top: 30px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #000000;
+}
+
+.about-text {
+ margin: 10px 50px;
+ 
+   font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+
+}
+
+.about-icon{
+   
+
+width: 60px;
+height: 60px;
+
+
+
 }
