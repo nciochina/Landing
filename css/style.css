@@ -6,13 +6,33 @@
 }
 
 .hero {
-   height: 1233px;
-   background: url(../img/DSC_1311\ 8_auto_x1.jpg) center center/cover no-repeat;
+   height: 927px;
+   /* height: 1233px; */
+   /* background: url(../img/DSC_1311\ 8_auto_x1.jpg) center center/cover no-repeat;
+   background-size: 75%; */
 }
 
 .container {
    width: 1310px;
    margin: 0 auto;
+}
+
+.bg-left {
+   background: url(/img/DSC_left.jpg);
+   position: absolute;
+   width: 650px;
+   height: 800px;
+   left: 305px;
+   top: 127px;
+}
+
+.bg-right {
+   background: url(/img/DSC_right.jpg);
+   position: absolute;
+   width: 650px;
+   height: 800px;
+   left: 965px;
+   top: 114px;
 }
 
 .logo .logo-image {
@@ -92,7 +112,7 @@
    opacity: 0.4;
 }
 
-.titel {
+/* .titel {
    position: absolute;
    width: 623px;
    height: 110px;
@@ -104,9 +124,35 @@
    font-size: 263px;
    line-height: 110px;
    color: #000000;
-}
+} */
 
+.titel {
+   position: absolute;
+   width: 573px;
+   height: 240px;
+   left: 250px;
+   top: 43px;
+   
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 80px;
+   /* or 125% */
+   
+   
+   color: #000000;
+}
 .button {
+   position: absolute;
+width: 160px;
+height: 36px;
+left: 250px;
+top: 303px;
+   background: #FDB805;
+   border-radius: 75px;
+}
+/* .button {
    position: absolute;
    width: 160px;
    height: 36px;
@@ -114,7 +160,7 @@
    top: 327px;
    background: #FDB805;
    border-radius: 75px;
-}
+} */
 
 .order {
    position: absolute;
@@ -135,7 +181,7 @@
 
 .about {
    height: 682px;
-   padding-top: 50px;
+   padding-top: 60px;
 }
 
 
@@ -168,6 +214,7 @@
 .about-subheader {
    left: 647px;
    top: 1397px;
+   padding-bottom: 0px;
    font-family: Montserrat;
    font-style: normal;
    font-weight: normal;
@@ -178,15 +225,15 @@
 }
 
 .about-wrapper {
-   margin-top: 40px;
+   margin-top: 50px;
    align-items: center;
 }
 
 .about-item {
-   padding-top: 50px;
+   padding-top: 40px;
    display: inline-block;
    width: 317px;
-   height: 300px;
+   height: 250px;
    vertical-align: top;
    text-align: center;
 }
@@ -220,12 +267,12 @@
 }
 
 .sortiment {
-   padding-top: 50px;
+   padding-top:0px;
    height: 510px;
 }
 
 .sortiment-header {
-   padding: 20px 0 30px 0;
+   padding: 80px 0 30px 0;
    font-family: Montserrat;
    ffont-style: normal;
    font-weight: 600;
@@ -236,7 +283,7 @@
    text-align: center;
 }
 
-.flex-container{
+.flex-container {
    margin: 0 auto;
    width: 1310px;
    height: 500px;
@@ -244,7 +291,7 @@
    justify-content: space-between;
 }
 
-.sortiment-titel{
+.sortiment-titel {
    text-align: center;
    padding-top: 30px;
    font-family: Montserrat;
@@ -252,11 +299,11 @@
    font-weight: 600;
    font-size: 20px;
    line-height: 25px;
-line-height: 1px;
-/* identical to box height, or 5% */
+   line-height: 1px;
+   /* identical to box height, or 5% */
 
 
-color: #000000;
-text-transform: uppercase;
+   color: #000000;
+   text-transform: uppercase;
 
 }
