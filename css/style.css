@@ -7,13 +7,15 @@
 
 .hero {
   height: 927px;
+  display: flex;
   /* height: 1233px; */
   /* background: url(../img/DSC_1311\ 8_auto_x1.jpg) center center/cover no-repeat;
    background-size: 75%; */
 }
 
 .container {
-  width: 1310px;
+  width: 100%;
+  max-width: 1310px;
   margin: 0 auto;
 }
 
@@ -81,6 +83,7 @@
 .link:focus,
 .link:active {
   opacity: 40%;
+
 }
 
 .fb {
@@ -174,7 +177,7 @@
   font-size: 24px;
   line-height: 30px;
   text-align: center;
-  font-feature-settings: "liga" off;
+  font-feature-settings: "liga"off;
   color: #000000;
   background: #fdb805;
 }
